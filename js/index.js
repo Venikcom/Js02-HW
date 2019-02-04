@@ -5,15 +5,15 @@ const result = fibLop(num);
 alert(result);
 
 function fibLop(num){
-    let first = 0;
-    let second = 1;
+    let a = 0;
+    let b = 1;
 
       for( let i = 0; i < num; i++){
-          let next = first;
-          first = second;
-          second = next + second;
+          let next = a;
+          a = b;
+          b = next + b;
         }
-      return first;
+      return a;
 } 
 
 
